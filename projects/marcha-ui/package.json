@@ -1,0 +1,28 @@
+{
+  "name": "@marchaui/marcha-ui",
+  "version": "1.0.0",
+  "description": "Marcha UI — Glassmorphism Angular Design System",
+  "keywords": [
+    "angular",
+    "design-system",
+    "glassmorphism",
+    "ui-components",
+    "tailwind"
+  ],
+  "author": "AlvaroMarcha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlvaroMarcha/marcha-ui.git"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=20.0.0",
+    "@angular/core": ">=20.0.0",
+    "@angular/forms": ">=20.0.0",
+    "iconify-icon": ">=3.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
