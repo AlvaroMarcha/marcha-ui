@@ -58,6 +58,6 @@ jobs:
         run: npx ng build marcha-ui
 
       - name: Publish to npm
-        run: npm publish dist/marcha-ui --access public
+        run: npm publish ./dist/marcha-ui --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
